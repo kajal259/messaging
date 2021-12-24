@@ -1,5 +1,8 @@
+<p>
+  <%= t('welcome')%>
+</p>
 <div>
-  <h1>Contacts</h1>
+  <h2>Contacts</h2>
     <div>
        <%= form_for :users, :url => "/users/show",  :html => { :method => 'GET' } do |f| %>
           I am: <%= f.collection_select :ids, @users, :id, :name %> <br>

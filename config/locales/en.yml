@@ -30,4 +30,8 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  welcome: "welcome!"
+pt:
+  welcome: "bem vinda!"
+gu: 
+  welcome: "સ્વાગત છે!"
